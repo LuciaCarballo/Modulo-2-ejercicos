@@ -1,4 +1,4 @@
-function Multiplicacion () {
+ function Multiplicacion () {
   let valor1 = 6;
   let valor2 = 8;
   let multiplicacion = valor1*valor2;
@@ -24,8 +24,21 @@ Media (5,7,9,5,6)
 
 
 
-function Pares () {
 
 
 
+/* 
+Crear una función que reciba por parámetro un número y devuelva true si es par y false si es impar. Ejecútala e imprime el resultado para comprobar que funciona. */
+
+function esParOImpar(numero) {
+  if (numero % 2 === 0) {
+    console.log("el numero es par!");
+      
+  } else {
+    console.log("el numero es impar!");
+       
+  }
 }
+
+esParOImpar(15)
+
