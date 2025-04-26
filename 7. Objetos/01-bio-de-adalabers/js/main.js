@@ -39,7 +39,7 @@ const adalaber1 = {
   },
 };
 
-/*console.log ("Mi nombre es"`${adalaber1.nombre}" tengo"`${adalaber1.edad}" y soy"`${adalaber1.profesion})}; -> Estábamos haciendolo así pero está mal,
+/*console.log ("Mi nombre es"+${adalaber1.nombre}" tengo"`${adalaber1.edad}" y soy"`${adalaber1.profesion})}; -> Estábamos haciendolo así pero está mal,
 hay que usar solo unas comillas francesas y meter todo el contenido dentro, especificando las propiedades del objeto y ya*/
 
 console.log(
